@@ -9,12 +9,12 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
 		
-		System.out.println("Enter the measures of tringule X: ");
+		System.out.println("Enter the measures of triangle X: ");
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
 		double c = sc.nextDouble();
 		
-		System.out.println("Enter the measures of tringule Y: ");
+		System.out.println("Enter the measures of triangle Y: ");
 		double d = sc.nextDouble();
 		double e = sc.nextDouble();
 		double f = sc.nextDouble();
@@ -33,8 +33,8 @@ public class Main {
 	}
 	
 	public static void resultadoPrt(double areaX, double areaY) {
-		System.out.println("Triangule X area: " + String.format("%.4f",areaX));
-		System.out.println("Triangule Y area: " + String.format("%.4f",areaY));
+		System.out.println("Triangle X area: " + String.format("%.4f",areaX));
+		System.out.println("Triangle Y area: " + String.format("%.4f",areaY));
 		
 		if (areaX > areaY) {
 			System.out.println("Larger area = X");
